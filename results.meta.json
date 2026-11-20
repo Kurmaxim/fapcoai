@@ -1,0 +1,699 @@
+{
+  "created_at_utc": "2026-11-19T07:28:04.049733+00:00",
+  "config_hash": "3802e50da5907375c92cda9e0ae1788f74bca9f31018711fc812bced8e1e04c7",
+  "config": {
+    "model": "mistral:7b",
+    "host": "http://127.0.0.1:11434",
+    "scenarios": [
+      {
+        "id": "S01",
+        "budget_rub": 800000,
+        "city": "Курган",
+        "adults": 2,
+        "children_ages": [
+          4
+        ],
+        "annual_km": 10000,
+        "text": "Семья из двух взрослых и ребёнка 4 лет в Кургане ищет семейный автомобиль с общим бюджетом 800 000 рублей, включая оформление и первый полис. Пробег около 10 000 км в год, в основном город; нужны место для детского кресла, багажник для коляски и недорогие запчасти."
+      },
+      {
+        "id": "S02",
+        "budget_rub": 950000,
+        "city": "Псков",
+        "adults": 1,
+        "children_ages": [
+          7,
+          12
+        ],
+        "annual_km": 12000,
+        "text": "Один взрослый и двое детей 7 и 12 лет в Пскове выбирают семейный автомобиль с общим бюджетом 950 000 рублей. За год семья проезжает 12 000 км по городу и до дачи; важны простой ремонт, два удобных задних места и умеренный расход топлива."
+      },
+      {
+        "id": "S03",
+        "budget_rub": 1100000,
+        "city": "Казань",
+        "adults": 2,
+        "children_ages": [
+          1,
+          6
+        ],
+        "annual_km": 16000,
+        "text": "Двое взрослых и дети 1 года и 6 лет в Казани располагают общим бюджетом 1 100 000 рублей на семейный автомобиль и оформление. Годовой пробег 16 000 км, преимущественно город; нужны два детских кресла, место под коляску и кондиционер."
+      },
+      {
+        "id": "S04",
+        "budget_rub": 1250000,
+        "city": "Новосибирск",
+        "adults": 2,
+        "children_ages": [
+          3
+        ],
+        "annual_km": 18000,
+        "text": "Семья из двух взрослых и ребёнка 3 лет в Новосибирске выделяет всего 1 250 000 рублей на покупку семейного автомобиля, страховку и регистрацию. Предстоит 18 000 км в год по городу и пригородным дорогам; важны уверенный зимний запуск, отопление салона и доступный сервис."
+      },
+      {
+        "id": "S05",
+        "budget_rub": 1400000,
+        "city": "Владивосток",
+        "adults": 2,
+        "children_ages": [
+          8,
+          14
+        ],
+        "annual_km": 14000,
+        "text": "Во Владивостоке двое взрослых и дети 8 и 14 лет ищут семейный автомобиль в пределах общего бюджета 1 400 000 рублей. Пробег 14 000 км в год по сопкам и загородным дорогам; допустим правый руль, нужны вместительный багажник и местный сервис выбранной модели."
+      },
+      {
+        "id": "S06",
+        "budget_rub": 1550000,
+        "city": "Москва",
+        "adults": 2,
+        "children_ages": [
+          2
+        ],
+        "annual_km": 9000,
+        "text": "Двое взрослых с ребёнком 2 лет в Москве покупают семейный автомобиль с общим бюджетом 1 550 000 рублей, учитывая первоначальные расходы. В год планируется 9 000 км по пробкам; нужны автоматическая коробка, удобная установка кресла и возможность парковаться во дворе."
+      },
+      {
+        "id": "S07",
+        "budget_rub": 1700000,
+        "city": "Санкт-Петербург",
+        "adults": 2,
+        "children_ages": [
+          5,
+          9
+        ],
+        "annual_km": 20000,
+        "text": "Семья из двух взрослых и детей 5 и 9 лет в Санкт-Петербурге имеет общий бюджет 1 700 000 рублей на семейный автомобиль и его оформление. Пробег 20 000 км в год, половина по трассе; важны защита кузова от коррозии, багажник для отпускных вещей и удобный второй ряд."
+      },
+      {
+        "id": "S08",
+        "budget_rub": 1850000,
+        "city": "Екатеринбург",
+        "adults": 2,
+        "children_ages": [
+          2,
+          7,
+          11
+        ],
+        "annual_km": 17000,
+        "text": "Двое взрослых и трое детей 2, 7 и 11 лет в Екатеринбурге выбирают семейный автомобиль при общем бюджете 1 850 000 рублей. Годовой пробег 17 000 км, включая выходные за городом; нужно проверить реальную установку трёх детских удерживающих устройств и размещение багажа."
+      },
+      {
+        "id": "S09",
+        "budget_rub": 2000000,
+        "city": "Краснодар",
+        "adults": 2,
+        "children_ages": [
+          1,
+          4
+        ],
+        "annual_km": 22000,
+        "text": "В Краснодаре двое взрослых с детьми 1 года и 4 лет выделяют общий бюджет 2 000 000 рублей на семейный автомобиль вместе со страховкой и регистрацией. В год предстоит 22 000 км по городу и к морю; нужны сильный кондиционер, место для двойной коляски и экономичность."
+      },
+      {
+        "id": "S10",
+        "budget_rub": 2150000,
+        "city": "Самара",
+        "adults": 3,
+        "children_ages": [
+          6
+        ],
+        "annual_km": 15000,
+        "text": "В Самаре семья из трёх взрослых, включая пожилую бабушку, и ребёнка 6 лет ищет семейный автомобиль с общим бюджетом 2 150 000 рублей. Пробег 15 000 км в год, регулярно ездят на дачу; нужны удобная посадка без высокой ступеньки и багажник под урожай."
+      },
+      {
+        "id": "S11",
+        "budget_rub": 2300000,
+        "city": "Тюмень",
+        "adults": 2,
+        "children_ages": [
+          10
+        ],
+        "annual_km": 25000,
+        "text": "Двое взрослых и ребёнок 10 лет в Тюмени готовы потратить всего 2 300 000 рублей на семейный автомобиль и оформление покупки. Семья проезжает 25 000 км в год, часто по зимней трассе; важны тёплый салон, запас хода и доступность обслуживания без поездок в другой регион."
+      },
+      {
+        "id": "S12",
+        "budget_rub": 2450000,
+        "city": "Пермь",
+        "adults": 2,
+        "children_ages": [
+          3,
+          13
+        ],
+        "annual_km": 19000,
+        "text": "В Перми двое взрослых и дети 3 и 13 лет выбирают семейный автомобиль с общим бюджетом 2 450 000 рублей. За год ожидается 19 000 км, включая дачу по грунтовке; нужны достаточный дорожный просвет, багажник для велосипеда и понятная стоимость обслуживания."
+      },
+      {
+        "id": "S13",
+        "budget_rub": 2600000,
+        "city": "Нижний Новгород",
+        "adults": 2,
+        "children_ages": [
+          0,
+          5,
+          8
+        ],
+        "annual_km": 13000,
+        "text": "Двое взрослых, младенец до года и дети 5 и 8 лет в Нижнем Новгороде имеют общий бюджет 2 600 000 рублей на семейный автомобиль и обязательные расходы. Пробег 13 000 км в год, в основном город; нужны три детских места с проверкой креплений и багажник под коляску и покупки."
+      },
+      {
+        "id": "S14",
+        "budget_rub": 2750000,
+        "city": "Уфа",
+        "adults": 2,
+        "children_ages": [
+          9,
+          15
+        ],
+        "annual_km": 28000,
+        "text": "В Уфе семья из двух взрослых и детей 9 и 15 лет выбирает семейный автомобиль с общим бюджетом 2 750 000 рублей, включая оформление. Семья проезжает 28 000 км в год, главным образом по трассе; нужны удобные сиденья, разумный расход топлива и большой интервал между остановками."
+      },
+      {
+        "id": "S15",
+        "budget_rub": 2900000,
+        "city": "Калининград",
+        "adults": 2,
+        "children_ages": [
+          6
+        ],
+        "annual_km": 11000,
+        "text": "Двое взрослых и ребёнок 6 лет в Калининграде располагают общим бюджетом 2 900 000 рублей на семейный автомобиль, страховку и регистрацию. В год планируется 11 000 км по городу и к побережью; нужны антикоррозионная стойкость и запчасти без длительного ожидания доставки."
+      },
+      {
+        "id": "S16",
+        "budget_rub": 3050000,
+        "city": "Архангельск",
+        "adults": 2,
+        "children_ages": [
+          4,
+          10
+        ],
+        "annual_km": 18000,
+        "text": "В Архангельске двое взрослых с детьми 4 и 10 лет ищут семейный автомобиль с общим бюджетом 3 050 000 рублей на покупку и оформление. Пробег 18 000 км в год по городу и заснеженным пригородам; важны отопление заднего ряда, дорожный просвет и доступный зимний сервис."
+      },
+      {
+        "id": "S17",
+        "budget_rub": 3200000,
+        "city": "Якутск",
+        "adults": 2,
+        "children_ages": [
+          2,
+          12
+        ],
+        "annual_km": 12000,
+        "text": "Двое взрослых и дети 2 и 12 лет в Якутске выделяют общий бюджет 3 200 000 рублей на семейный автомобиль с первоначальными расходами. Годовой пробег 12 000 км, преимущественно короткие городские поездки; нужны подготовка к сильным морозам и возможность ремонта в местных мастерских."
+      },
+      {
+        "id": "S18",
+        "budget_rub": 3350000,
+        "city": "Иркутск",
+        "adults": 2,
+        "children_ages": [
+          7,
+          16
+        ],
+        "annual_km": 24000,
+        "text": "Семья из двух взрослых и детей 7 и 16 лет в Иркутске ищет семейный автомобиль в пределах общего бюджета 3 350 000 рублей. За год предстоит 24 000 км, включая поездки к Байкалу; нужны место для туристического снаряжения, устойчивость на трассе и ремонтопригодная подвеска."
+      },
+      {
+        "id": "S19",
+        "budget_rub": 3500000,
+        "city": "Сочи",
+        "adults": 2,
+        "children_ages": [
+          3,
+          8
+        ],
+        "annual_km": 16000,
+        "text": "В Сочи двое взрослых и дети 3 и 8 лет покупают семейный автомобиль с общим бюджетом 3 500 000 рублей вместе со страховкой и регистрацией. Пробег 16 000 км в год по пробкам и горным дорогам; важны охлаждение салона, удобный автомат и предсказуемые расходы на тормоза и подвеску."
+      },
+      {
+        "id": "S20",
+        "budget_rub": 3700000,
+        "city": "Петрозаводск",
+        "adults": 2,
+        "children_ages": [
+          5,
+          11
+        ],
+        "annual_km": 21000,
+        "text": "Двое взрослых и дети 5 и 11 лет в Петрозаводске выделяют общий бюджет 3 700 000 рублей на семейный автомобиль и оформление покупки. Семья проезжает 21 000 км в год и часто отдыхает у озёр; нужны вместительный багажник, перевозка двух велосипедов и доступность сервиса в Карелии."
+      },
+      {
+        "id": "S21",
+        "budget_rub": 3900000,
+        "city": "Москва",
+        "adults": 2,
+        "children_ages": [
+          8,
+          13
+        ],
+        "annual_km": 14000,
+        "text": "В Москве двое взрослых и дети 8 и 13 лет ищут семейный автомобиль с общим бюджетом 3 900 000 рублей, включая необходимые доработки и оформление. Годовой пробег 14 000 км; ребёнок 8 лет пользуется инвалидной коляской, поэтому нужны удобная пересадка и место для сложенной коляски без обещаний о совместимости до замеров."
+      },
+      {
+        "id": "S22",
+        "budget_rub": 4100000,
+        "city": "Казань",
+        "adults": 4,
+        "children_ages": [
+          4,
+          9
+        ],
+        "annual_km": 20000,
+        "text": "В Казани семья из четырёх взрослых и детей 4 и 9 лет планирует купить семейный автомобиль с общим бюджетом 4 100 000 рублей. Пробег 20 000 км в год, включая совместные поездки с бабушкой и дедушкой; нужны минимум шесть пригодных для регулярной езды мест и багажник при занятом третьем ряде."
+      },
+      {
+        "id": "S23",
+        "budget_rub": 4350000,
+        "city": "Великий Устюг",
+        "adults": 2,
+        "children_ages": [
+          1,
+          6,
+          14
+        ],
+        "annual_km": 23000,
+        "text": "Двое взрослых и дети 1 года, 6 и 14 лет в Великом Устюге выбирают семейный автомобиль с общим бюджетом 4 350 000 рублей на покупку и оформление. Семья проезжает 23 000 км в год по городу и между районами; нужны удобство на плохой дороге, багажник под коляску и обслуживание без регулярных дальних поездок к дилеру."
+      },
+      {
+        "id": "S24",
+        "budget_rub": 4650000,
+        "city": "Владивосток",
+        "adults": 2,
+        "children_ages": [
+          3,
+          7,
+          12,
+          16
+        ],
+        "annual_km": 17000,
+        "text": "Во Владивостоке двое взрослых и четверо детей 3, 7, 12 и 16 лет располагают общим бюджетом 4 650 000 рублей на семейный автомобиль и обязательные расходы. Пробег 17 000 км в год; нужен шестиместный или семиместный салон с удобным доступом к детским креслам, допустим правый руль при наличии местного сервиса."
+      },
+      {
+        "id": "S25",
+        "budget_rub": 5000000,
+        "city": "Санкт-Петербург",
+        "adults": 2,
+        "children_ages": [
+          5,
+          10,
+          15
+        ],
+        "annual_km": 30000,
+        "text": "Семья из двух взрослых и детей 5, 10 и 15 лет в Санкт-Петербурге ищет семейный автомобиль с общим бюджетом 5 000 000 рублей вместе с оформлением и первым полисом. Годовой пробег 30 000 км, часты дальние семейные путешествия; нужны просторный салон, большой багажник и предсказуемое обслуживание после окончания гарантии."
+      }
+    ],
+    "methods": [
+      "intentions",
+      "facts"
+    ],
+    "repeats": 1,
+    "seed": 42,
+    "temperature": 0.7,
+    "num_predict": 900,
+    "num_ctx": 4096,
+    "timeout": 1800.0,
+    "min_chars": 100,
+    "duplication": "semantic",
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "ollama_version": {
+      "version": "0.40.15"
+    },
+    "model_tags": [
+      {
+        "name": "mistral:7b",
+        "model": "mistral:7b",
+        "modified_at": "2026-11-19T10:17:47.4501691+03:00",
+        "size": 4372824384,
+        "digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "7.2B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 4096,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      }
+    ],
+    "ollama_num_parallel": "1",
+    "sources": {
+      "agents.py": "0235fcd23588927cd58040a709219a57927403fb02e5d149410a87dfb477ed5a",
+      "metrics.py": "5736b2632d5c65f61800f632ea85d8782a72024bbacd160656bbf80fa92c2b35",
+      "ollama_client.py": "cf40e27d56696f17d47af6e29a26c431900ee7c69b03ef3f902241cc512a4f3e",
+      "run_experiment.py": "a234a00ebdc6ff59a27f0993045afe3d1c3d121daccc307ddaaf005eda084107",
+      "scenarios.py": "a37f3364a8ff7a208b29bc8c06bae67218626c69dd8a5c5fea9ad0d9c7eb00c6"
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "E:\\course_work\\venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "server": {
+    "version": {
+      "version": "0.40.15"
+    },
+    "models": [
+      {
+        "name": "mistral:7b",
+        "model": "mistral:7b",
+        "modified_at": "2026-11-19T10:17:47.4501691+03:00",
+        "size": 4372824384,
+        "digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "7.2B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 4096,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      }
+    ],
+    "selected_model": {
+      "license": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.",
+      "modelfile": "# Modelfile generated by \"ollama show\"\n# To build a new Modelfile based on this, replace FROM with:\n# FROM mistral:7b\n\nFROM E:\\ollama\\models\\blobs\\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f\nTEMPLATE \"\"\"{{- if .Messages }}\n{{- range $index, $_ := .Messages }}\n{{- if eq .Role \"user\" }}\n{{- if and (eq (len (slice $.Messages $index)) 1) $.Tools }}[AVAILABLE_TOOLS] {{ $.Tools }}[/AVAILABLE_TOOLS]\n{{- end }}[INST] {{ if and $.System (eq (len (slice $.Messages $index)) 1) }}{{ $.System }}\n\n{{ end }}{{ .Content }}[/INST]\n{{- else if eq .Role \"assistant\" }}\n{{- if .Content }}{{ .Content }}\n{{- else if .ToolCalls }}[TOOL_CALLS] [\n{{- range .ToolCalls }}{\"name\": \"{{ .Function.Name }}\", \"arguments\": {{ .Function.Arguments }}}\n{{- end }}]\n{{- end }}</s>\n{{- else if eq .Role \"tool\" }}[TOOL_RESULTS] {\"content\": {{ .Content }}} [/TOOL_RESULTS]\n{{- end }}\n{{- end }}\n{{- else }}[INST] {{ if .System }}{{ .System }}\n\n{{ end }}{{ .Prompt }}[/INST]\n{{- end }}{{ .Response }}\n{{- if .Response }}</s>\n{{- end }}\"\"\"\nPARAMETER stop [INST]\nPARAMETER stop [/INST]\nLICENSE \"\"\"                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\"\"\"\n",
+      "parameters": "stop                           \"[INST]\"\nstop                           \"[/INST]\"",
+      "template": "{{- if .Messages }}\n{{- range $index, $_ := .Messages }}\n{{- if eq .Role \"user\" }}\n{{- if and (eq (len (slice $.Messages $index)) 1) $.Tools }}[AVAILABLE_TOOLS] {{ $.Tools }}[/AVAILABLE_TOOLS]\n{{- end }}[INST] {{ if and $.System (eq (len (slice $.Messages $index)) 1) }}{{ $.System }}\n\n{{ end }}{{ .Content }}[/INST]\n{{- else if eq .Role \"assistant\" }}\n{{- if .Content }}{{ .Content }}\n{{- else if .ToolCalls }}[TOOL_CALLS] [\n{{- range .ToolCalls }}{\"name\": \"{{ .Function.Name }}\", \"arguments\": {{ .Function.Arguments }}}\n{{- end }}]\n{{- end }}</s>\n{{- else if eq .Role \"tool\" }}[TOOL_RESULTS] {\"content\": {{ .Content }}} [/TOOL_RESULTS]\n{{- end }}\n{{- end }}\n{{- else }}[INST] {{ if .System }}{{ .System }}\n\n{{ end }}{{ .Prompt }}[/INST]\n{{- end }}{{ .Response }}\n{{- if .Response }}</s>\n{{- end }}",
+      "template_source": "go_template",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "7.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "model_info": {
+        "general.architecture": "llama",
+        "general.file_type": 15,
+        "general.parameter_count": 7248023552,
+        "general.quantization_version": 2,
+        "llama.attention.head_count": 32,
+        "llama.attention.head_count_kv": 8,
+        "llama.attention.layer_norm_rms_epsilon": 1e-05,
+        "llama.block_count": 32,
+        "llama.context_length": 32768,
+        "llama.embedding_length": 4096,
+        "llama.feed_forward_length": 14336,
+        "llama.rope.dimension_count": 128,
+        "llama.rope.freq_base": 1000000,
+        "llama.vocab_size": 32768,
+        "tokenizer.ggml.add_bos_token": true,
+        "tokenizer.ggml.add_eos_token": false,
+        "tokenizer.ggml.bos_token_id": 1,
+        "tokenizer.ggml.eos_token_id": 2,
+        "tokenizer.ggml.model": "llama",
+        "tokenizer.ggml.pre": "default",
+        "tokenizer.ggml.scores": [],
+        "tokenizer.ggml.token_type": [],
+        "tokenizer.ggml.tokens": [],
+        "tokenizer.ggml.unknown_token_id": 0
+      },
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "modified_at": "2026-11-19T10:17:47.4501691+03:00"
+    }
+  },
+  "warmups": [
+    {
+      "at_utc": "2026-11-19T07:28:04.049733+00:00",
+      "response": {
+        "text": " Да, готов.",
+        "prompt_tokens": 20,
+        "output_tokens": 6,
+        "tokens": 26,
+        "token_source": "ollama",
+        "done_reason": "stop",
+        "truncated": false,
+        "api_response": {
+          "model": "mistral:7b",
+          "created_at": "2026-11-19T07:28:04.036252Z",
+          "response": " Да, готов.",
+          "done": true,
+          "done_reason": "stop",
+          "context": [
+            3,
+            29473,
+            19766,
+            2460,
+            3057,
+            6292,
+            9663,
+            26023,
+            19421,
+            1819,
+            29501,
+            2496,
+            29556,
+            2841,
+            29515,
+            2463,
+            8428,
+            29491,
+            4,
+            29473,
+            14376,
+            29493,
+            2463,
+            8428,
+            29491
+          ],
+          "total_duration": 11648452900,
+          "load_duration": 8503717400,
+          "prompt_eval_count": 20,
+          "prompt_eval_cached_count": 0,
+          "prompt_eval_duration": 2416961000,
+          "eval_count": 6,
+          "eval_duration": 718532000
+        }
+      }
+    }
+  ],
+  "environment": {
+    "OLLAMA_MODELS": "E:\\ollama\\models",
+    "OLLAMA_NUM_PARALLEL": "1",
+    "HF_HOME": "E:\\hf_cache",
+    "HF_HUB_CACHE": "E:\\hf_cache\\hub",
+    "TRANSFORMERS_CACHE": "E:\\hf_cache",
+    "PIP_CACHE_DIR": "E:\\pip_cache",
+    "TEMP": "E:\\course_work\\tmp",
+    "TMP": "E:\\course_work\\tmp"
+  },
+  "embedding": {
+    "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "requested_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "resolved_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "max_seq_length": 128,
+    "device": "cpu"
+  },
+  "runtime_environment": {
+    "backend": "Vulkan + CPU",
+    "model": "mistral:7b",
+    "ram_gib": 16,
+    "gpu": "NVIDIA GeForce GTX 970",
+    "ollama_vulkan": "1",
+    "note": "Параметры действующего сервера, проверенного прямым запросом и /api/ps. Обновление драйвера не выполнялось.",
+    "gpu_memory_gib": 4,
+    "recorded_at": "2026-11-19T10:22:06.3107248+03:00",
+    "nvidia_driver": "560.94",
+    "vulkan_visible_devices": "0",
+    "cuda_visible_devices": "-1",
+    "model_digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+    "ollama_num_parallel": 1,
+    "cpu": "Intel Core i5-4440 @ 3.10GHz",
+    "loaded_model": [
+      {
+        "name": "mistral:7b",
+        "model": "mistral:7b",
+        "size": 5084723280,
+        "digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "7.2B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-11-19T11:08:06.962212+03:00",
+        "size_vram": 2609664491,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "model_provenance": {
+    "downloaded_at_utc": "2026-11-19T07:17:47.450169+00:00",
+    "source": "https://registry.ollama.com/v2/library/mistral/manifests/7b",
+    "model": "mistral:7b",
+    "manifest_sha256": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+    "models_directory": "E:\\ollama\\models",
+    "all_blobs_sha256_verified": true,
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:1064e17101bdd2460dd5c4e03e4f5cc1b38a4dee66084dc91faba294ccb64a92",
+        "size": 487
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f",
+          "size": 4372811712
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+          "size": 11356
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.template",
+          "digest": "sha256:1ff5b64b61b9a63146475a24f70d3ca2fd6fdeec44247987163479968896fc0b",
+          "size": 799
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:ed11eda7790d05b49395598a42b155812b17e263214292f7b87d15e14003d337",
+          "size": 30
+        }
+      ]
+    }
+  },
+  "python_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "E:\\course_work\\venv\\Scripts\\python.exe",
+    "base_prefix": "E:\\Python",
+    "prefix": "E:\\course_work\\venv",
+    "site_packages": [
+      "E:\\course_work\\venv",
+      "E:\\course_work\\venv\\Lib\\site-packages"
+    ],
+    "temp": "E:\\course_work\\tmp",
+    "packages": {
+      "torch": "2.6.0+cpu",
+      "sentence-transformers": "3.4.1",
+      "transformers": "4.49.0",
+      "matplotlib": "3.10.1",
+      "notebook": "7.3.3"
+    },
+    "paths": {
+      "HF_HOME": "E:\\hf_cache",
+      "HF_HUB_CACHE": "E:\\hf_cache\\hub",
+      "HF_XET_CACHE": "E:\\hf_cache\\xet",
+      "IPYTHONDIR": "E:\\course_work\\tmp\\ipython",
+      "JUPYTER_CONFIG_DIR": "E:\\course_work\\tmp\\jupyter\\config",
+      "JUPYTER_DATA_DIR": "E:\\course_work\\tmp\\jupyter\\data",
+      "JUPYTER_RUNTIME_DIR": "E:\\course_work\\tmp\\jupyter\\runtime",
+      "MPLCONFIGDIR": "E:\\course_work\\tmp\\matplotlib",
+      "OLLAMA_MODELS": "E:\\ollama\\models",
+      "PIP_CACHE_DIR": "E:\\pip_cache",
+      "SENTENCE_TRANSFORMERS_HOME": "E:\\hf_cache\\sentence_transformers",
+      "TEMP": "E:\\course_work\\tmp",
+      "TMP": "E:\\course_work\\tmp",
+      "TORCH_HOME": "E:\\torch_cache",
+      "TRANSFORMERS_CACHE": "E:\\hf_cache"
+    }
+  },
+  "time_diagnostics": {
+    "config_hash": "3802e50da5907375c92cda9e0ae1788f74bca9f31018711fc812bced8e1e04c7",
+    "source": "Windows System event log",
+    "events": [
+      {
+        "provider": "Microsoft-Windows-Power-Troubleshooter",
+        "event_id": 1,
+        "event_record_id": 790765,
+        "logged_at_utc": "2026-11-19T10:33:56.4944512Z",
+        "sleep_start_utc": "2026-11-19T09:46:24.0919736+00:00",
+        "wake_end_utc": "2026-11-19T10:33:27.2747800+00:00",
+        "sleep_duration_sec": 2823.1828064
+      },
+      {
+        "provider": "Microsoft-Windows-Power-Troubleshooter",
+        "event_id": 1,
+        "event_record_id": 790742,
+        "logged_at_utc": "2026-11-19T09:16:33.8958218Z",
+        "sleep_start_utc": "2026-11-19T09:13:15.2358096+00:00",
+        "wake_end_utc": "2026-11-19T09:16:29.7412516+00:00",
+        "sleep_duration_sec": 194.505442
+      }
+    ],
+    "affected_runs": [
+      {
+        "scenario_id": "S19",
+        "method": "facts",
+        "wall_time_sec": 379.0149670999963,
+        "sleep_duration_sec": 194.505442,
+        "event_record_id": 790742
+      },
+      {
+        "scenario_id": "S24",
+        "method": "facts",
+        "wall_time_sec": 2960.4239793000743,
+        "sleep_duration_sec": 2823.1828064,
+        "event_record_id": 790765
+      }
+    ],
+    "time_sec_changed": false
+  },
+  "validation": {
+    "checked_at": "2026-11-19T14:10:24.486824",
+    "rows": 50,
+    "scenarios": 25,
+    "statuses": {
+      "ok": 50
+    },
+    "token_sources": {
+      "ollama": 50
+    },
+    "config_hash": "3802e50da5907375c92cda9e0ae1788f74bca9f31018711fc812bced8e1e04c7",
+    "all_raw_files_exist": true,
+    "all_token_sums_match": true,
+    "source_hashes_match": true,
+    "generation_calls": 225,
+    "raw_csv_metrics_match": true,
+    "raw_csv_agent_texts_match": true,
+    "all_api_token_counters_match": true,
+    "plot_count": 5,
+    "confirmed_sleep_events": 2,
+    "results_csv_sha256": "4f0e5ab344a4e5b056498686b0d56e2163da3b200a542e204310f63352c4db8a",
+    "notebook_file": "analysis.ipynb",
+    "embedded_plot_count": 5,
+    "report_contains_explanations_and_conclusion": true,
+    "analysis_outputs_verified": true,
+    "notebook_code_cells": 9,
+    "report_format": "executed_notebook",
+    "notebook_executed": true,
+    "notebook_kernel": "course-work",
+    "analysis_bootstrap_present": true
+  }
+}
